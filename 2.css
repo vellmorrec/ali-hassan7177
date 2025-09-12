@@ -1,0 +1,190 @@
+@media (max-width: 800px) {
+    .menuIcon {
+        display: block;
+    }
+    .nav-head {
+        display: none;
+    }
+}
+
+@media (max-width: 1400px) {
+    .section-1 {
+        flex-direction: column;
+        gap: 90px;
+    }
+    .body-section3{
+        display: none;
+    }
+    .body-section1{
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+    }
+    .body-section1-text{
+        position: static;
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 1050px) {
+    main{
+        padding: 5%;
+    }
+    .body-section1-text h1{
+        width: 100%;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .body-section1-text p{
+        width: 100%;
+        font-size: 14px;
+    }
+    .body-section1-text button{
+        margin-top: 40px;
+        font-size: 14px;
+    }
+    .main-1{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .m-1-box{
+        width: 100%;
+    }
+    .m-3-main{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .m-3-box{
+        width: 100%;
+    }
+}
+
+@media (max-width: 855px) {
+
+    .foot{
+        padding: 50px 10px;
+        gap: 50px;
+    }
+
+.foot h1{
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.14px;
+}
+
+ .foot-1{
+    display: flex;
+    flex-direction: row;
+}
+.foot-1 button{
+    min-width: 110px;
+    margin-top: auto;
+    font-size: 10px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: #70050500;
+    color: white;
+    margin-left: 20px;
+}
+.foot-1 input{
+    font-size: 10px;
+    max-width: 211px;
+}
+}
+
+@media (max-width: 600px) {
+    .body-section2 , .m-2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .body-section2 h1 , .m-2 h1{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .body-section2 button , .m-2 button{
+        font-size: 10px;
+    }
+
+    .foot h1{
+        width: 285px;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing:0.14px;
+    }
+
+    .foot p{
+        font-size: 12px;
+        max-width: 282px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+
+    .foot-2 img{
+        width: 112px;
+    }
+
+    .foot-2 {
+        padding-top: 50px;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .foot-section{
+        display: flex;
+        flex-direction: row;
+        width:300px;
+    }
+
+
+    .foot-section a{
+        font-size: 12px;
+        margin: auto;
+    }
+
+    .foot-2-links{
+        width: 300px;
+    }
+
+    .foot-3{
+        font-size: 12px;
+        width: 300px;
+    }
+
+    .logo{
+        width: 112px;
+    }
+    .menuIcon{
+        width: 35px;
+    }
+
+.section-1-text h1{
+    max-width: 289px;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0;
+}
+
+.section-1-text p{
+    width: 289px;
+    font-size: 11px;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.section-1-text button{
+    font-size: 11px;
+    line-height: 150%;
+    font-weight: 700;
+}
+
+.section-1-img{
+    height: 330px;
+}
+}
